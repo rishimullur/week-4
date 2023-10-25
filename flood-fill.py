@@ -13,7 +13,7 @@ def flood_fill(input_board, old, new, x, y):
     """
 
     #Add ASSERT for both row & column numbers
-        
+    # Check if value of x is less than 0 or greater than or equal to the length of the input_board    
 
     if x < 0 or x >= len(input_board) or y < 0 or y >= len(input_board[0]):
 	return input_board
